@@ -140,3 +140,7 @@ Nefry BTのディスプレイに値を表示させることができます。
 PCがあればシリアルモニタでの確認でも良いですが、実際に機器に取り付ける際などはこちらを使うと便利です。
 
 `#include <NefryDisplay.h>`の宣言でディスプレイを利用できます。
+
+
+* Light Sensorに付け替えて、センサーの値を取得してみよう。
+* コードは[こちら(3.5_display_light.ino)](3.5_display_light/3.5_display_light.ino)になります。
