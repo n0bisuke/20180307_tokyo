@@ -33,7 +33,7 @@ Nefry BTでのGroveセンサーの使い方は簡単で、Grove用のポート�
 
 Arduino IDEのファイル -> 新規ファイルから新規のファイルを作成し、コードを貼り付けて書き込みをしてみましょう。
 
-センサーをA0に刺していて、プログラム的にA1となってますが シルク印刷のミスとなっています。（すみません）
+センサーをA0に刺していて、プログラム的にA1となってますが、Nefry BT R2の場合シルク印刷のミスとなっています。（すみません）
 
 ## 値の確認 / シリアルモニタ
 
@@ -63,22 +63,16 @@ USBの抜き差しでも再起動できますが、シリアルモニタが切�
 
 ```
 #include <Nefry.h>
-#include <NefryDisplay.h>
 
 #define LIGHT_SIG A1
 
 void setup() {
   Serial.begin(115200);                //Start the Serial connection
   pinMode(LIGHT_SIG, INPUT);
-  NefryDisplay.begin();
 }
 
 void loop() {
   int sensorValue = analogRead(LIGHT_SIG);
-    
-  NefryDisplay.print("");
-  NefryDisplay.print("");
-  NefryDisplay.print((String)sensorValue);
   if(sensorValue > 1000){
     //明るいときの処理を記述
   }else{
@@ -105,6 +99,10 @@ Nefry.setLed(255,255,255,100);
 ```
 Nefry.setLed(255,255,255,0);
 ```
+
+### チャレンジ - 成功例
+
+![](https://i.gyazo.com/853cce551e8533ec02f63b004d8ed2ca.gif)
 
 ## チャレンジ2
 
