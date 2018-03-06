@@ -132,3 +132,11 @@ https://www.instagram.com/p/Bf_bZw2leWI/
 ### チャレンジ2 - 成功例
 
 https://www.instagram.com/p/Bf_fSs5lzeh/
+
+## ディスプレイに値を表示
+
+Nefry BTのディスプレイに値を表示させることができます。
+
+PCがあればシリアルモニタでの確認でも良いですが、実際に機器に取り付ける際などはこちらを使うと便利です。
+
+`#include <NefryDisplay.h>`の宣言でディスプレイを利用できます。
