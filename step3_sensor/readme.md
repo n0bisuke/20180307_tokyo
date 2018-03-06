@@ -111,7 +111,7 @@ https://www.instagram.com/p/Bf_bZw2leWI/
 ## チャレンジ2
 
 * Sound Sensorに付け替えて、センサーの値を取得してみよう。
-* コードは[こちら](https://github.com/n0bisuke/20180119_tokushima/blob/master/step3_sensor/3.2_sound_sensor/3.1_sound_sensor.ino)になります。
+* コードは[こちら(3.2_sound_sensor.ino)](3.2_sound_sensor/3.2_sound_sensor.ino)になります。
 
 手を叩いたり音を出して確認してみましょう。
 
