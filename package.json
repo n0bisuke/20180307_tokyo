@@ -1,0 +1,29 @@
+{
+  "name": "20180119_tokushima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git-push": "git add -A && git commit -m 'update' && git push origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0bisuke/20180119_tokushima.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n0bisuke/20180119_tokushima/issues"
+  },
+  "homepage": "https://github.com/n0bisuke/20180119_tokushima#readme",
+  "dependencies": {
+    "azure-event-hubs": "0.0.8",
+    "azure-iot-device": "^1.3.0",
+    "azure-iot-device-mqtt": "^1.3.0",
+    "mosca": "^2.7.0",
+    "mqtt": "^2.15.1",
+    "ngrok": "^2.2.25"
+  }
+}
