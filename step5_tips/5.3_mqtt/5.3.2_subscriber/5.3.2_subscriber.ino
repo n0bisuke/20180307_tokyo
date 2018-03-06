@@ -6,10 +6,11 @@ PubSubClient mqttClient(httpsClient);
 
 #define TOPIC "n0bisuke"
 #define QOS 0
-#define URL "192.168.10.112"
+#define URL "192.168.43.70"
 #define PORT 1883
 
 void setup() {
+  Serial.begin(115200);                //Start the Serial connection
   mqttClient.setServer(URL, PORT);
   mqttClient.setCallback(callback);
 }
@@ -25,7 +26,8 @@ void loop() {
       errorReport();
     }
   }
-  
+
+  Serial.println(".");
   mqttClient.loop();
 }
 
