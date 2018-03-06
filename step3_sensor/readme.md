@@ -29,7 +29,7 @@ Nefry BTでのGroveセンサーの使い方は簡単で、Grove用のポート�
 
 ## Nefry BTにコードを書き込む
 
-[Light Sensorのコード](3.1_light_sensor/3.1_light_sensor.ino)を書き込んでみましょう。
+[Light Sensorのコード(3.1_light_sensor.ino)](3.1_light_sensor/3.1_light_sensor.ino)を書き込んでみましょう。
 
 Arduino IDEのファイル -> 新規ファイルから新規のファイルを作成し、コードを貼り付けて書き込みをしてみましょう。
 
