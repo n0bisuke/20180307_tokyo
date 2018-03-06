@@ -9,14 +9,6 @@ void setup() {
 
 void loop() {
   int sensorValue = analogRead(LIGHT_SIG);
-  if(sensorValue > 1000){
-    //明るいときの処理を記述
-    Nefry.setLed(255,255,255,0);
-  }else{
-    //暗い時の処理を記述
-    Nefry.setLed(255,255,255,100);
-  }
-
   Serial.println(sensorValue);
   delay(1000);
 }
