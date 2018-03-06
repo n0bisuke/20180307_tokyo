@@ -1,5 +1,3 @@
-#include <Nefry.h>
-
 #define LIGHT_SIG A1
 
 void setup() {
