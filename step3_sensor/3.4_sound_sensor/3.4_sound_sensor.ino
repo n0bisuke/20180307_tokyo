@@ -15,9 +15,9 @@ void loop() {
   }
   sum >>= 5;
   if(sum > 1000){
-    Nefry.setLed(255,255,255,0);
-  }else{
     Nefry.setLed(255,255,255,100);
+  }else{
+    Nefry.setLed(255,255,255,0);
   }
   Serial.println(sum);
   delay(10);

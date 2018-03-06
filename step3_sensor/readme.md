@@ -128,3 +128,7 @@ https://www.instagram.com/p/Bf_bZw2leWI/
 * 通常時はLEDが消えていて、大きな音がしたらLEDが点灯するプログラムを書いてみましょう。
 
 チャレンジ1の応用です。
+
+### チャレンジ2 - 成功例
+
+https://www.instagram.com/p/Bf_fSs5lzeh/
