@@ -141,6 +141,17 @@ PCがあればシリアルモニタでの確認でも良いですが、実際に
 
 `#include <NefryDisplay.h>`の宣言でディスプレイを利用できます。
 
-
 * Light Sensorに付け替えて、センサーの値を取得してみよう。
 * コードは[こちら(3.5_display_light.ino)](3.5_display_light/3.5_display_light.ino)になります。
+
+https://www.instagram.com/p/Bf_gaFBlbo5/
+
+## チャレンジ3
+
+* Sound Sensorの値をディスプレイに表示させてみよう
+* 大きな音がしたら「ON!」という文字を表示させ、LEDを光らせましょう
+* 通常時は「OFF」という文字を表示させ、LEDは消灯しています
+
+### チャレンジ3 - 成功例
+
+https://www.instagram.com/p/Bf_hmc1F396
