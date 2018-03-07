@@ -1,5 +1,5 @@
 
-# 徳島ワークショップ資料
+# IoTワークショップ資料
 
 * [Nefry BT(ESP32)の書き込みが失敗する場合](https://dotstud.io/docs/nefrybt-error-handling-2/)
 
