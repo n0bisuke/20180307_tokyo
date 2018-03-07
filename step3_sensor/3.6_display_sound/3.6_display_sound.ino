@@ -1,19 +1,24 @@
-#include <Nefry.h>
-//フルカラーLED　ランダムにカラーが変わります。
-#define SEED_PIN A0
+
+#define SOUND_SIG A1
 
 void setup() {
-  randomSeed(analogRead(SEED_PIN));
+  Serial.begin(115200);                //Start the Serial connection
+  pinMode(SOUND_SIG, INPUT);
 }
 
-int red,green,blue;
 void loop() {
-  red=random(255);//random関数は0-255の数値をランダムに返します。
-  green=random(255);
-  blue=random(255);
-  Nefry.setLed(red,green,blue);//LEDがランダムに点灯します。
-  String color="Red:";color+=red;
-  color+=" Green:";color+=green;
-  color+=" Blue:";color+=blue;
-  Nefry.ndelay(3000);//1秒待つ
+  long sum = 0;
+  for(int i=0; i<32; i++){
+    sum += analogRead(SOUND_SIG);
+  }
+  sum >>= 5;
+
+  if(sum > 1000){
+    //音が大きい場合の処理
+  }else{
+    //音が小さい場合の処理
+  }
+  
+  Serial.println(sum);
+  delay(10);
 }
