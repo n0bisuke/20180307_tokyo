@@ -1,4 +1,5 @@
 
+#include <Nefry.h>
 #define SOUND_SIG A1
 
 void setup() {
@@ -15,8 +16,10 @@ void loop() {
 
   if(sum > 1000){
     //音が大きい場合の処理
+    Nefry.setLed(255,255,255,100);
   }else{
     //音が小さい場合の処理
+    Nefry.setLed(255,255,255,0);
   }
   
   Serial.println(sum);
