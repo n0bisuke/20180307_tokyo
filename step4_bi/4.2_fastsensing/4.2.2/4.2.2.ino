@@ -1,17 +1,17 @@
 #include <WiFiClientSecure.h> // HTTPS通信のために必要
 
+#define LIGHT_SIG A1
+
 String TARGET_HOST = "f-io.net"; //ファストセンシングのホスト名
 String DEVICE_TOKEN = "metjeb44meqxgz6d"; //デバイストークンを指定
 String CHANNEL = "5o2bc524"; //利用するチャンネルを指定
-
-int analog;
 
 void setup() {
   Serial.begin(115200);
 }
 
 void loop() {
-  analog = analogRead(A1);
+  int analog = analogRead(LIGHT_SIG);
   String trainDelayJson = getTrainDelayJson(analog);   // JSONを取得する
   Serial.print(trainDelayJson);
   delay(5000);
