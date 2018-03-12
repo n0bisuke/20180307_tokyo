@@ -40,7 +40,7 @@ AmbientはIoTデーターの可視化サービスです。
 
 ## Nefry BTにプログラムを書き込む
 
-[Ambient利用のコード(4.1_ambient.ino)](4.1.1_ambient.ino)を書き込んでみましょう。
+[Ambient利用のコード(4.1_ambient.ino)](4.1.1_ambient/4.1.1_ambient.ino)を書き込んでみましょう。
 
 - ※ちなみにサンプルスケッチもあります。
 
