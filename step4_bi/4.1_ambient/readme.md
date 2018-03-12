@@ -88,3 +88,6 @@ Ambientの管理画面を触って棒グラフを作ってみましょう。
 ![](https://i.gyazo.com/931c8cd5567c7c619467119a7b178d48.gif)
 
 ## 4. 二つのデータを扱ってみる
+
+[Ambient利用のコード2(4.1.2_ambient.ino)](4.1.2_ambient/4.1.2_ambient.ino)を書き込んでみましょう。
+
