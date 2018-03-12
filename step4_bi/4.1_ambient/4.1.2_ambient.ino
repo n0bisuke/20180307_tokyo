@@ -5,7 +5,7 @@ NefryAmbient nefryAmbient;
 
 void setup() {
     Serial.begin(115200);
-    pinMode(SOUND_SIG, INPUT);
+    pinMode(LIGHT_SIG, INPUT);
     nefryAmbient.begin();//ambientを使えるように初期設定をします。
     Nefry.setProgramName("AmbientSimpleAnalog");//プログラム名を指定します。
 }
