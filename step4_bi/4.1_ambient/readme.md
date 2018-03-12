@@ -101,6 +101,8 @@ Ambientの管理画面を触って棒グラフを作ってみましょう。
 
 ![](https://i.gyazo.com/73c91fc0a29021943a5107fe679010a2.png)
 
+![](https://i.gyazo.com/9d5f79c6545ef77e5500b1dda1c62ef1.png)
+
 ### Ambientの設定
 
 ### 確認
