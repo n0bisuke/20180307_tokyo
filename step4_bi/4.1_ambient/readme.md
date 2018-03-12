@@ -60,6 +60,12 @@ void loop() {
 }
 ```
 
+### ちなみにサンプルスケッチもあります。
+
+![](https://i.gyazo.com/cd415ad4c3c07e988788b94556c1c27d.png)
+
+`ファイル > スケッチ例 > Nefry Ambient library`
+
 ## 配線
 
 GroveのA0(A1)ピンにSound SenserもしくはLight Sensorを差し込みましょう。
