@@ -50,7 +50,7 @@ AmbientはIoTデーターの可視化サービスです。
 
 ## 配線
 
-GroveのA0(A1)ピンにSound SenserもしくはLight Sensorを差し込みましょう。
+GroveのA0(A1)ピンにLight Sensorを差し込みましょう。
 
 > 今回の研修の場合は(Nefry BT R2ではA0)
 
