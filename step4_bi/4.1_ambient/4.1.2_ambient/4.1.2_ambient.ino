@@ -23,3 +23,4 @@ void loop() {
     nefryAmbient.set(2, soundValue); //field,dataの順にセットします。
     nefryAmbient.send(); //ambientにデータを送信します。
     delay(1000); //1秒待つ
+}
