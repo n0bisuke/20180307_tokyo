@@ -42,7 +42,7 @@ AmbientはIoTデーターの可視化サービスです。
 
 [Ambient利用のコード(4.1_ambient.ino)](4.1_ambient.ino)を書き込んでみましょう。
 
-### ちなみにサンプルスケッチもあります。
+- ※ちなみにサンプルスケッチもあります。
 
 ![](https://i.gyazo.com/cd415ad4c3c07e988788b94556c1c27d.png)
 
