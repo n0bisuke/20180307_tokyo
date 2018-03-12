@@ -1,6 +1,6 @@
 # Nefry BTからAmbientにデータをあげて可視化しよう
 
-## Ambient
+## 1. Ambient
 
 https://ambidata.io/
 
@@ -16,29 +16,31 @@ AmbientはIoTデーターの可視化サービスです。
 
 ![](https://ambidata.io/wp/wp-content/uploads/2016/08/chart2.jpg)
 
-## ユーザー登録
+## 2. 利用準備
+
+### ユーザー登録
 
 メールアドレスとパスワードを入力して登録しましょう。
 
-## ログインしてチャンネルを作る
+### ログインしてチャンネルを作る
 
 ![](https://i.gyazo.com/d88631e273d2ebb8312d0a313077dbc4.png)
 
 ![](https://i.gyazo.com/ec26b7309bf4d0472f863f3740f6703e.png)
 
-## ログインできない人
+#### ログインできない人
 
-### 1個目 8人まで
+##### 1個目 8人まで
 
 * id: rkv43994@pdold.com
 * pass: hogehoge
 
-### 2コメ 8人まで
+##### 2コメ 8人まで
 
 * id: m2067647512@dqnwara.com
 * pass: 123456
 
-## Nefry BTにプログラムを書き込む
+## 3. Nefry BTにプログラムを書き込む
 
 [Ambient利用のコード(4.1_ambient.ino)](4.1.1_ambient/4.1.1_ambient.ino)を書き込んでみましょう。
 
@@ -48,7 +50,7 @@ AmbientはIoTデーターの可視化サービスです。
 
 `ファイル > スケッチ例 > Nefry Ambient library`
 
-## 配線
+### 配線
 
 GroveのA0(A1)ピンにLight Sensorを差し込みましょう。
 
@@ -56,7 +58,7 @@ GroveのA0(A1)ピンにLight Sensorを差し込みましょう。
 
 ![](https://i.gyazo.com/c67a34a72d8b01b1f3b6b2797c08737d.jpg)
 
-## Nefry BTのWebコンソールでキーを設定
+### Nefry BTのWebコンソールでキーを設定
 
 * PCなどからWebコンソールにアクセスし、`Data Store`を選択
 
@@ -69,7 +71,7 @@ GroveのA0(A1)ピンにLight Sensorを差し込みましょう。
 
 するとNefry BTが再起動します。
 
-## 確認
+### 確認
 
 Ambientでチャネル名のリンクをクリックすると、そのチャネルのグラフページになります。
 
@@ -77,7 +79,7 @@ Ambientでチャネル名のリンクをクリックすると、そのチャネ�
 
 このような形でNefry BTからデータが送信され、外出先などからでもWeb上でデータを監視することが可能です。
 
-## チャレンジ
+### チャレンジ
 
 棒グラフを作ってみよう。
 
@@ -85,4 +87,4 @@ Ambientの管理画面を触って棒グラフを作ってみましょう。
 
 ![](https://i.gyazo.com/931c8cd5567c7c619467119a7b178d48.gif)
 
-##
+## 4. 二つのデータを扱ってみる
