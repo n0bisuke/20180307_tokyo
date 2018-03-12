@@ -103,6 +103,11 @@ Ambientの管理画面を触って棒グラフを作ってみましょう。
 
 ![](https://i.gyazo.com/9d5f79c6545ef77e5500b1dda1c62ef1.png)
 
+* Groveの黒 -> GPIOのGND (マイナス)
+* Groveの赤 -> GPIOの5v (プラス)
+* Groveの黄色 -> GPIOのA2 (信号)
+
+
 ### Ambientの設定
 
 ### 確認
