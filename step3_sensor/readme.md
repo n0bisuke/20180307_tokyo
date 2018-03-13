@@ -155,3 +155,8 @@ https://www.instagram.com/p/Bf_gaFBlbo5/
 ### チャレンジ3 - 成功例
 
 https://www.instagram.com/p/Bf_hmc1F396
+
+
+### チャレンジ3 - 答え
+
+[解答例はこちら](3.6_display_sound/3.6_display_sound.ino)
