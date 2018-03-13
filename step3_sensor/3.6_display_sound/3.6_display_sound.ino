@@ -1,10 +1,12 @@
-
 #include <Nefry.h>
+#include <NefryDisplay.h>
+
 #define SOUND_SIG A1
 
 void setup() {
-  Serial.begin(115200);                //Start the Serial connection
+  Serial.begin(115200); //Start the Serial connection
   pinMode(SOUND_SIG, INPUT);
+  NefryDisplay.begin(); //ディスプレイを使いますよ宣言
 }
 
 void loop() {
@@ -17,9 +19,18 @@ void loop() {
   if(sum > 1000){
     //音が大きい場合の処理
     Nefry.setLed(255,255,255,100);
+    
+    NefryDisplay.print("");
+    NefryDisplay.print("on!");
+    NefryDisplay.print((String)sensorValue);
+    delay(1000);
   }else{
     //音が小さい場合の処理
     Nefry.setLed(255,255,255,0);
+
+    NefryDisplay.print("");
+    NefryDisplay.print("off");
+    NefryDisplay.print((String)sensorValue);
   }
   
   Serial.println(sum);
