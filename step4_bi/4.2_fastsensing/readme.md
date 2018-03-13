@@ -130,6 +130,8 @@ GroveのA0(A1)ピンにSound SenserもしくはLight Sensorを差し込みまし
 
 - Lignt Sensorの値を取得してFastsensingにあげてみましょう。
 
+ヒント - [Light Sensorのコード](https://github.com/n0bisuke/20180307_tokyo/blob/master/step3_sensor/3.1_light_sensor/3.1_light_sensor.ino)との組み合わせです。
+
 ## 確認
 
 チャンネルを指定します。

@@ -1,4 +1,4 @@
-#define LIGHT_SIG A2
+#define LIGHT_SIG A1
 
 void setup() {
   Serial.begin(115200);                //Start the Serial connection
