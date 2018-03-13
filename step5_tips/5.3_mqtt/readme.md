@@ -41,7 +41,7 @@ WebSocketではサーバーとクライアントだけで双方向通信をし�
 
 Publisher(パブリッシャー) = データの送信側です。
 
-[こちらのコード](https://github.com/n0bisuke/20180119_tokushima/blob/master/step5_tips/5.3_mqtt/5.3.1_publisher/5.3.1_publisher.ino)をNefryに書き込んで実行してみましょう。
+[こちらのコード](5.3.1_publisher/5.3.1_publisher.ino)をNefryに書き込んで実行してみましょう。
 
 ![](https://i.gyazo.com/9e3a1d1a700b1284ce39957e4238be18.png)
 
@@ -51,7 +51,7 @@ Publisher(パブリッシャー) = データの送信側です。
 
 ### チャレンジ
 
-* TOPICを"tokushima20180119"に変更
+* TOPICを"Tokyo20180313"に変更
 * 送信しているメッセージの"hello world"の部分を別のメッセージに変更してみよう。
 
 前のスクリーンで自分のデータが送られているか確認してみましょう。
