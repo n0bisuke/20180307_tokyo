@@ -1,22 +1,19 @@
-#define WIO_DIGITAL 2
-#define PIN_ADC A0
+#define SOUND_SIG A1
 #define THRESHOLD 200 //閾値 (変化量)
 #define SAMPLINGRATE 100 //サンプリング回数
 
 void setup() {
   Serial.begin(115200);
-  pinMode(WIO_DIGITAL, OUTPUT);
+  pinMode(SOUND_SIG, INPUT);
 }
 
 void loop() {
-   if (isSoundDetected()) {
-    digitalWrite(WIO_DIGITAL, HIGH);
-    Serial.println("反応あり");
-  } else {
-    digitalWrite(WIO_DIGITAL, LOW);
-//    Serial.println("反応なし");
-  }
-  delay(100);
+    if(isSoundDetected()){
+        Serial.println("反応あり");
+    }else{
+        //Serial.println("反応なし");
+    }
+    delay(100);
 }
 
 bool isSoundDetected(){
@@ -27,7 +24,7 @@ bool isSoundDetected(){
   sum = 0;  
   // SAMPLINGRATE回数だけサンプルをとって平均値を出す
   for(int i=0; i<SAMPLINGRATE; i++) {
-    int a = analogRead(PIN_ADC);
+    int a = analogRead(SOUND_SIG);
     sum += a;
     
     // 前回の平均値よりTHRESHOLD以上大きい値がとれたらdetected
