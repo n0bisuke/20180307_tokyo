@@ -41,6 +41,8 @@ WebSocketではサーバーとクライアントだけで双方向通信をし�
 
 Publisher(パブリッシャー) = データの送信側です。
 
+[こちらのライブラリ](https://github.com/knolleary/pubsubclient)をインストールします。
+
 [こちらのコード](5.3.1_publisher/5.3.1_publisher.ino)をNefryに書き込んで実行してみましょう。
 
 ![](https://i.gyazo.com/9e3a1d1a700b1284ce39957e4238be18.png)
