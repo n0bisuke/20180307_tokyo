@@ -81,7 +81,9 @@ Subscriber(サブスクライバー) = データの受信側です。
 
 ## 3. Nefry Cloudの利用
 
-[Nefryクラウド(仮)をつくってみた](https://qiita.com/wamisnet/items/38d6a5ac8332b090d0c2)
+- [Nefry BTのLEDをWebから制御する](https://qiita.com/n0bisuke/items/ff0d1ddf41eaa13fd72a#_reference-5da4e1e79fac061f3cf4)
+
+- [Nefryクラウド(仮)をつくってみた](https://qiita.com/wamisnet/items/38d6a5ac8332b090d0c2)
 
 ## 4. Brokerについて学ぼう
 
