@@ -6,3 +6,4 @@ BI=ビジネス・インテリジェンスは、企業内の蓄積された大�
 
 * [Ambient編](4.1_ambient)
 * [Fastsensing編](4.2_fastsensing)
+* [LINE Notify編](4.3_notify)
