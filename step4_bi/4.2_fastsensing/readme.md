@@ -25,8 +25,7 @@ https://fastsensing.com/ja/author/fastsensing-webmaster/
 ## ログインできない人
 
 * rsksound+test@gmail.com / hogehoge
-
-
+* rsksound+test1@gmail.com / hogehoge
 
 ## ログインしてホーム画面へ
 
