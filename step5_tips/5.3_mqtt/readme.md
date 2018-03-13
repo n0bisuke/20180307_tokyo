@@ -89,6 +89,8 @@ Subscriber(サブスクライバー) = データの受信側です。
 
 - [Nefryクラウド(仮)をつくってみた](https://qiita.com/wamisnet/items/38d6a5ac8332b090d0c2)
 
+- [サンプルコード1](https://github.com/n0bisuke/20180307_tokyo/blob/master/step5_tips/5.3_mqtt/5.3.4_nefrycloud/5.3.4_nefrycloud_1/5.3.4_nefrycloud_1.ino#L10)
+
 ## 4. Brokerについて学ぼう
 
 最初に紹介したとおり、MQTTのサーバーにあたるのがブローカーです。
