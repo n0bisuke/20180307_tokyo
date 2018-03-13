@@ -126,6 +126,10 @@ GroveのA0(A1)ピンにSound SenserもしくはLight Sensorを差し込みまし
 
 ![](https://i.gyazo.com/c67a34a72d8b01b1f3b6b2797c08737d.jpg)
 
+## チャレンジ
+
+- Lignt Sensorの値を取得してFastsensingにあげてみましょう。
+
 ## 確認
 
 チャンネルを指定します。
