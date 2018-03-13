@@ -6,7 +6,7 @@ PubSubClient mqttClient(httpsClient);
 
 #define TOPIC "n0bisuke"
 #define QOS 0
-#define URL "192.168.43.70"
+#define URL "mosquitto.org"
 #define PORT 1883
 
 void setup() {
@@ -26,8 +26,6 @@ void loop() {
       errorReport();
     }
   }
-
-  Serial.println(".");
   mqttClient.loop();
 }
 
