@@ -6,8 +6,9 @@ NefryCloud nefryCloud;
 void onpush(String message);
 
 void setup() {
-  nefryCloud.begin("user","apikey");//サイトで登録したuser,メールで受け取ったapikeyを入力してください
-  nefryCloud.on(onpush);
+    Serial.begin(115200);     
+    nefryCloud.begin("user","apikey");//サイトで登録したuser,メールで受け取ったapikeyを入力してください
+    nefryCloud.on(onpush);
 }
 
 void loop() {
@@ -19,5 +20,6 @@ void onpush(String message) {//Nefryクラウド(仮)から通知が来ます
   Nefry.println(message);
   if(message.equals("on")){
     //onという文字列がきたときに処理をする
+    Serial.println("じゅしん");
   }
 }
