@@ -132,6 +132,10 @@ GroveのA0(A1)ピンにSound SenserもしくはLight Sensorを差し込みまし
 
 ヒント - [Light Sensorのコード](https://github.com/n0bisuke/20180307_tokyo/blob/master/step3_sensor/3.1_light_sensor/3.1_light_sensor.ino)との組み合わせです。
 
+### 解答例
+
+[解答例コード](4.2.4_fast_light/4.2.4_fast_light.ino)
+
 ## 確認
 
 チャンネルを指定します。
