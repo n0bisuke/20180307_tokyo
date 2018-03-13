@@ -5,8 +5,6 @@
 
 乾電池やバッテリー駆動をした際に気になるのが電力消費です。
 
-
-
 ### 消費電力がどれくらいになるか
 
 [ESP32の仕様書](http://akizukidenshi.com/download/ds/espressifsystems/esp_wroom_32_datasheet_en.pdf)
