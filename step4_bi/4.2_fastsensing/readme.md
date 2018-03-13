@@ -22,6 +22,12 @@ https://fastsensing.com/ja/author/fastsensing-webmaster/
 
 メールアドレスに確認メールが送られてくるのでリンクをクリックしましょう。
 
+## ログインできない人
+
+* rsksound+test@gmail.com / hogehoge
+
+
+
 ## ログインしてホーム画面へ
 
 ![](https://i.gyazo.com/bfbc485167fa3000963bf6b67e36285e.png)
